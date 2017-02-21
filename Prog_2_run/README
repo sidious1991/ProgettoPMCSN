@@ -1,0 +1,25 @@
+Comandi Makefile
+
+$ make
+    compila e avvia il programma di simulazione
+
+$ make simulation
+    compila il programma
+
+$ make clean
+    rimuove i file oggetto e l'eseguibile del programma
+
+$ make run
+    esegue il programma
+
+Cartelle
+
+src
+    sorgenti .c
+
+include
+    file header .h
+
+obj
+    file oggetto generati dalla compilazione
+

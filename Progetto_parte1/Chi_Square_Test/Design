@@ -1,0 +1,11 @@
+- Choosen Test: Test of Uniformity based on Chi-Square statistic:
+  - Test the (a,m) = (48271, 2^31 - 1)
+  - 256, one for stream
+  - k >= 1000 & n >= 10*k
+  - Put alfa = 0.005
+ 
+- Compute Chi-Square statistic V over all stream:
+  - Plot resulting point and evaluate the failure or the success of the generator using the critical value V1* and V2*
+    (Done by R-Statistics and Scatterplot)
+
+- Compile file chisquare.c and run --> creation of file "data" with 256 Chi-Square statistics and v1*,v2* at the tail of file.
